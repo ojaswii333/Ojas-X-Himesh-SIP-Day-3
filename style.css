@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Outer container */
+.outer-card {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Inner card with image left and text right */
+.inner-card {
+    width: 380px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 25px;
+    border: 2px solid #ccc;
+    border-radius: 15px;
+    background: white;
+}
+
+/* Left image block */
+.avatar {
+    width: 90px;
+    height: 90px;
+}
+
+/* Right text block */
+.right h2 {
+    margin: 5px 0 10px 0;
+}
+
+.right p {
+    margin: 3px 0;
+    font-size: 15px;
+    color: #444;
+}
